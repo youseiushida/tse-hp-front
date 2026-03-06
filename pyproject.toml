@@ -1,6 +1,6 @@
 [project]
 name = "tse-hp-front"
-version = "0.1.0"
+version = "0.1.1"
 description = "Python client for Tokyo Stock Exchange listed company / corporate governance search services"
 readme = "README.md"
 requires-python = ">=3.12"

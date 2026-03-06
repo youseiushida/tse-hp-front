@@ -1,6 +1,10 @@
 # tse-hp-front — 東証 上場会社情報・CG情報 Python クライアント
 
-[![Python](https://img.shields.io/pypi/pyversions/tse-hp-front.svg)](https://pypi.org/project/tse-hp-front/)
+[![PyPI version](https://img.shields.io/pypi/v/tdnet.svg)](https://pypi.org/project/tse-hp-front/)
+[![Python](https://img.shields.io/pypi/pyversions/tdnet.svg)](https://pypi.org/project/tse-hp-front/)
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+[![Context7 Indexed](https://img.shields.io/badge/Context7-Indexed-047857)](https://context7.com/youseiushida/tse-hp-front)
+[![Context7 llms.txt](https://img.shields.io/badge/Context7-llms.txt-047857)](https://context7.com/youseiushida/tse-hp-front/llms.txt)
 
 **tse-hp-front** は、[東京証券取引所 上場会社情報サービス](https://www2.jpx.co.jp/tseHpFront/JJK010010Action.do?Show=Show)および[コーポレート・ガバナンス情報サービス](https://www2.jpx.co.jp/tseHpFront/CGK010010Action.do?Show=Show)のスクレイピングクライアントライブラリです。上場会社検索（簡易・詳細）、企業詳細（基本情報・適時開示・縦覧書類・CG情報の全タブ）、CG検索（75以上の検索条件）をサポートし、同期・非同期クライアントを提供します。内部の HTTP 通信には [httpx](https://github.com/encode/httpx) を使用しています。
 
