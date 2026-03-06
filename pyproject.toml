@@ -1,0 +1,15 @@
+[project]
+name = "tse-hp-front"
+version = "0.1.0"
+description = "Python client for Tokyo Stock Exchange listed company / corporate governance search services"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.14.3",
+    "httpx>=0.28.1",
+    "lxml>=6.0.2",
+]
+
+[build-system]
+requires = ["uv_build>=0.9.18,<0.10.0"]
+build-backend = "uv_build"
